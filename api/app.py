@@ -7,11 +7,7 @@ app = Flask(__name__)
 TARGET_H = 200
 PAD_X = 24
 PAD_Y = 24
-FONT_CANDIDATES = [
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-    "/usr/share/fonts/simhei.ttf",
-    "Arial.ttf"
-]
+FONT_CANDIDATES = ["font/1.ttf"]
 
 def pick_font(size: int):
     for p in FONT_CANDIDATES:

@@ -9,7 +9,7 @@ TARGET_H = 200
 PAD_X = 24
 PAD_Y = 24
 
-FONT_CANDIDATES = 
+FONT_CANDIDATES = ["Arial", "Helvetica", "sans-serif"]
 
 def pick_font(size: int):
     for p in FONT_CANDIDATES:
